@@ -12,15 +12,15 @@ class Calculator extends StatelessWidget {
         child: Column(mainAxisAlignment: MainAxisAlignment.end, children: [
           const TextField(
             decoration: InputDecoration(
-              hintText: ('                    CALULATOR               '),
+              hintText: ('CALULATOR'),
             ),
           ),
-          const SizedBox(
+          const SizedBox(                                                                                                                           
             height: 30,
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
+            children: const [
               ButtonText(
                 text: "7",
               ),
@@ -40,7 +40,7 @@ class Calculator extends StatelessWidget {
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
+            children: const [
               ButtonText(
                 text: "4",
               ),
@@ -60,7 +60,7 @@ class Calculator extends StatelessWidget {
           ),
           Row(
             mainAxisAlignment: MainAxisAlignment.spaceBetween,
-            children: [
+            children: const [
               ButtonText(
                 text: "1",
               ),
